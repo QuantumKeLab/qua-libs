@@ -20,7 +20,6 @@ from .verification.command_registry import (
 )
 from .verification.sequence_tracker import SequenceTracker
 
-
 class TwoQubitRb:
     _buffer_length = 4096
 
@@ -51,8 +50,7 @@ class TwoQubitRb:
                 Note that this allows us to execute every type of single qubit gate.
                 Callable arguments:
                     baking: The baking object.
-                    qubit: The qubit number.
-                    x: The x rotation exponent.
+                     x: The x rotation exponent.
                     z: The z rotation exponent.
                     a: the axis phase exponent.
 
