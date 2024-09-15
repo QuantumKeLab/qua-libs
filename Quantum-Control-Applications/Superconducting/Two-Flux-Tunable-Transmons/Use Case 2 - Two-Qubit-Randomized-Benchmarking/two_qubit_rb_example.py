@@ -127,16 +127,16 @@ def meas(
 # qmm = QuantumMachinesManager(host=qop_ip, port=qop_port, cluster_name=cluster_name)  # initialize qmm
 q3 = 3
 threshold3 = 4.675e-04
-qubit3_frame_update = 0.23
+qubit3_frame_update = 0.
 
 q4 = 4
 threshold4 = 2.436e-04
-qubit4_frame_update = 0.12
+qubit4_frame_update = 0.
 
 c = 8
 
-cz_q4_amp = 0.05
-cz_c_amp = 0.05
+cz_q4_amp = 0.5
+cz_c_amp = 0.5
 
 rb = TwoQubitRb(
     config=config,
