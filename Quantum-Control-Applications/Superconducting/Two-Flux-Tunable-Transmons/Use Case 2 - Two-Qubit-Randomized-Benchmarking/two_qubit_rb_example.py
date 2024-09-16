@@ -159,7 +159,7 @@ res = rb.run(qmm, circuit_depths=[1, 2, 3, 4, 5], num_circuits_per_depth=2, num_
 res.plot_hist()
 plt.show()
 
-res.get_fidelity()
+res.plot_with_fidelity()
 plt.show()
 
 # verify/save the random sequences created during the experiment
